@@ -1,0 +1,61 @@
+@font-face 
+{
+    font-family: coffee-shop-espresso;
+    src: url(fonts/coffee-shop-espresso.ttf);
+}
+
+img {max-width: 20em;}
+
+img.project
+{
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(0,0,0)
+}
+
+.main-title
+{
+    font-family: coffee-shop-espresso;
+    color:  #c86309;
+    margin: 0;
+}
+
+nav a:link, nav a:visited
+{
+    display:inline-block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #000099;
+    color: #c86309;
+    font-weight: bolder;
+    font-size: 1em;
+    padding: .2em;
+    margin-bottom:  1.5em;
+}
+
+nav a:hover, nav a:active
+{
+    background-color: #000066;
+}
+
+h2.project
+{
+    margin-left: 4em;
+    margin-top: 2em;
+}
+
+footer {margin-top:4em;}
+
+footer ul
+{
+    list-style-type: none;
+    margin-right:0;
+    padding: 0;
+}
+
+footer  li, footer address
+{
+    margin-right:.5em;
+    display: inline;
+}
