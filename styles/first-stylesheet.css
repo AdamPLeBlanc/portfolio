@@ -1,3 +1,5 @@
+font-family: 'Ubuntu', sans-serif;
+
 @font-face 
 {
     font-family: coffee-shop-espresso;
@@ -15,7 +17,7 @@ img.project
 
 .main-title
 {
-    font-family: coffee-shop-espresso;
+    font-family: Ubuntu;
     color:  #c86309;
     margin: 0;
 }
